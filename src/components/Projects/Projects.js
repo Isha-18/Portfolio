@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ chatify}
+              imgPath={chatify}
               isBlog={false}
               title="TeleGroup"
               description="An app similar to Telegram.
@@ -57,15 +57,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Parking Allotment System"
-              description=" This parking allotment system website aims at providing the user to reserve their vehicle parking slot online
-              The system shall note the time duration from the user and check for availability of parking slots. It shall check for the number
-              of slots available and reserve the slot for the user.
-               Keeps the database of their vehicle number.
-               Technologies used: SQL, Java Swing, GUI.
+              title="Porfolio Using ReactJs"
+              description=" Created a portfolio using ReactJs.
+              Technologies used: HTML,CSS, Javascript , ReactJS, React Animations
               "
-              // ghLink=""
-              // demoLink=""
+               ghLink="https://github.com/Isha-18/Portfolio"
+               demoLink="https://isha-18.github.io/Portfolio/"
             />
           </Col>          
         </Row>
